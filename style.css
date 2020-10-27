@@ -1,19 +1,23 @@
-body{
+body {
     margin: 0;
-    background-color: lemonchiffon;
+    pad: 0;
+    background-color: rgb(237, 236, 229);
 
 }
 
 header {
-    margin-top: 10%;
+
+    /* margin-top: 10%; */
+    height: 100vh;
+    width: 100%;
     background-color: rgb(87, 197, 197);
-    background: url("./test.jpg")no-repeat center center fixed;
-    /* background-position: 150% 150%;
-    background-repeat: no-repeat; */
+    /* background: url("./test.jpg")no-repeat center center fixed; */
+    background-image: url("./test.jpg");
+    background-position: 50% 50%;
+    /* background-repeat: no-repeat; */
     /* background-size: auto; */
     background-size: cover;
-    height: 60%;
-    width: 100%;
+    
 
 }
 
@@ -28,5 +32,16 @@ h1 {
     color: rgb(222, 222, 222);
     right: 50%;
     top: 80%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 4.6rem;
+    padding: 20;
+    color: rgb(211, 201, 201);
+    text-align: center;
+    position: relative;
+    right: 0%;
+    top: 50%;
     font-family: 'Courier New', Courier, monospace;
 }
