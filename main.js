@@ -6,7 +6,7 @@ let title = true;
 const changeImage = () => {
   image = !image;
   title = !title;
-  header.style.backgroundImage = image ? "url(test.jpg)" : "url(test1.png)";
-  h1.textContent = title ? "Oczy" : "Pszczoly";
+  header.style.backgroundImage = image ? "url(img_1.svg)" : "url(img_2.svg)";
+  h1.textContent = title ? "eye" : "bee";
 };
 header.addEventListener("click", changeImage);
